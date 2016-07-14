@@ -1,0 +1,2848 @@
+[
+    {
+        "full_duration": 1062.7543120384216, 
+        "key": {
+            "kw": {
+                "args": {
+                    "router_create_args": {}
+                }, 
+                "context": {
+                    "network": {
+                        "network_create_args": {
+                            "name": "c_rally_33806e98_ZMViWNY3", 
+                            "tenant_id": "0960b601358d48d8b7030acbac8fbc24"
+                        }, 
+                        "networks_per_tenant": 1, 
+                        "start_cidr": "10.2.0.0/24", 
+                        "subnets_per_network": 1
+                    }, 
+                    "quotas": {
+                        "neutron": {
+                            "network": -1, 
+                            "router": -1, 
+                            "subnet": -1
+                        }
+                    }, 
+                    "users": {
+                        "project_domain": "default", 
+                        "resource_management_workers": 20, 
+                        "tenants": 3, 
+                        "user_domain": "default", 
+                        "users_per_tenant": 1
+                    }
+                }, 
+                "runner": {
+                    "concurrency": 6, 
+                    "times": 200, 
+                    "type": "constant"
+                }
+            }, 
+            "name": "NeutronNetworks.create_and_delete_routers_small", 
+            "pos": 0
+        }, 
+        "load_duration": 945.7261431217194, 
+        "result": [
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 10.218328952789307, 
+                    "neutron.delete_router": 9.155264139175415
+                }, 
+                "duration": 19.373711109161377, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333131.683308
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 14.908622026443481, 
+                    "neutron.delete_router": 10.822890996932983
+                }, 
+                "duration": 25.73163080215454, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333131.685038
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 6.344291925430298, 
+                    "neutron.delete_router": 2.927293062210083
+                }, 
+                "duration": 9.271644115447998, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333131.692031
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 9.904848098754883, 
+                    "neutron.delete_router": 13.935533046722412
+                }, 
+                "duration": 23.840441942214966, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333131.698892
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 19.704571962356567, 
+                    "neutron.delete_router": 10.175185918807983
+                }, 
+                "duration": 29.87981104850769, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333131.70317
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 8.131895065307617, 
+                    "neutron.delete_router": 5.914234161376953
+                }, 
+                "duration": 14.046223163604736, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333131.710718
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 8.546894073486328, 
+                    "neutron.delete_router": 5.416201114654541
+                }, 
+                "duration": 13.963160991668701, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333140.972123
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 22.598095893859863, 
+                    "neutron.delete_router": 12.547685861587524
+                }, 
+                "duration": 35.14584708213806, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333145.764838
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 24.24041199684143, 
+                    "neutron.delete_router": 7.795772075653076
+                }, 
+                "duration": 32.03624606132507, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333151.061655
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 9.282671928405762, 
+                    "neutron.delete_router": 7.747802019119263
+                }, 
+                "duration": 17.030532121658325, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333154.938916
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 14.391853094100952, 
+                    "neutron.delete_router": 6.8234100341796875
+                }, 
+                "duration": 21.215333938598633, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333155.544038
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 21.508347034454346, 
+                    "neutron.delete_router": 9.93939995765686
+                }, 
+                "duration": 31.447824001312256, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333157.420703
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 9.912161111831665, 
+                    "neutron.delete_router": 8.97298812866211
+                }, 
+                "duration": 18.885217905044556, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333161.587198
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 19.303869009017944, 
+                    "neutron.delete_router": 13.696429967880249
+                }, 
+                "duration": 33.00035095214844, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333171.972651
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 16.332844972610474, 
+                    "neutron.delete_router": 4.820343971252441
+                }, 
+                "duration": 21.15323805809021, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333176.764476
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 10.199788093566895, 
+                    "neutron.delete_router": 15.174471855163574
+                }, 
+                "duration": 25.37432885169983, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333180.475577
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 21.132622003555298, 
+                    "neutron.delete_router": 7.77856707572937
+                }, 
+                "duration": 28.91125512123108, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333180.914126
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 21.438162088394165, 
+                    "neutron.delete_router": 16.08537793159485
+                }, 
+                "duration": 37.523595094680786, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333183.100283
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 9.255059003829956, 
+                    "neutron.delete_router": 14.76820707321167
+                }, 
+                "duration": 24.023343086242676, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333188.873049
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 19.79458999633789, 
+                    "neutron.delete_router": 6.323095083236694
+                }, 
+                "duration": 26.11774516105652, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333197.921969
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 22.13667106628418, 
+                    "neutron.delete_router": 15.474865913391113
+                }, 
+                "duration": 37.61158990859985, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333204.977112
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 12.725784063339233, 
+                    "neutron.delete_router": 20.657902002334595
+                }, 
+                "duration": 33.38373684883118, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333205.853774
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 22.97313690185547, 
+                    "neutron.delete_router": 11.92057204246521
+                }, 
+                "duration": 34.893768072128296, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333209.829202
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 19.52906894683838, 
+                    "neutron.delete_router": 12.01294994354248
+                }, 
+                "duration": 31.542083978652954, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333212.906513
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 20.174254894256592, 
+                    "neutron.delete_router": 7.71293306350708
+                }, 
+                "duration": 27.887256860733032, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333220.628643
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 8.472062110900879, 
+                    "neutron.delete_router": 4.7405970096588135
+                }, 
+                "duration": 13.212715148925781, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333224.042924
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 26.72419500350952, 
+                    "neutron.delete_router": 8.99765920639038
+                }, 
+                "duration": 35.721925020217896, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333237.259163
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 11.628265857696533, 
+                    "neutron.delete_router": 4.933795928955078
+                }, 
+                "duration": 16.562126874923706, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333239.240509
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 29.36966609954834, 
+                    "neutron.delete_router": 13.446508884429932
+                }, 
+                "duration": 42.81624484062195, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333242.592055
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 11.189750909805298, 
+                    "neutron.delete_router": 9.289976119995117
+                }, 
+                "duration": 20.479794025421143, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333244.460082
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 12.623462915420532, 
+                    "neutron.delete_router": 16.0483820438385
+                }, 
+                "duration": 28.67191481590271, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333244.726262
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 26.076659202575684, 
+                    "neutron.delete_router": 7.128669023513794
+                }, 
+                "duration": 33.20540809631348, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333248.519007
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 9.017245054244995, 
+                    "neutron.delete_router": 15.880773782730103
+                }, 
+                "duration": 24.898083925247192, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333255.805917
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 11.073976993560791, 
+                    "neutron.delete_router": 19.022458791732788
+                }, 
+                "duration": 30.096493005752563, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333264.944033
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 27.452157020568848, 
+                    "neutron.delete_router": 9.83069896697998
+                }, 
+                "duration": 37.282915115356445, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333272.984797
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 17.383553981781006, 
+                    "neutron.delete_router": 5.374418020248413
+                }, 
+                "duration": 22.75803804397583, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333273.401367
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 10.847563982009888, 
+                    "neutron.delete_router": 13.732348918914795
+                }, 
+                "duration": 24.579978942871094, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333280.708975
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 23.471713066101074, 
+                    "neutron.delete_router": 19.734044075012207
+                }, 
+                "duration": 43.205816984176636, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333281.72807
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 27.647230863571167, 
+                    "neutron.delete_router": 9.969119787216187
+                }, 
+                "duration": 37.616442918777466, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333285.412138
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 31.104079008102417, 
+                    "neutron.delete_router": 13.067636013031006
+                }, 
+                "duration": 44.171772956848145, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333295.043721
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 11.266863822937012, 
+                    "neutron.delete_router": 8.098620891571045
+                }, 
+                "duration": 19.365569829940796, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333296.162367
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 12.488409042358398, 
+                    "neutron.delete_router": 17.387091159820557
+                }, 
+                "duration": 29.875566959381104, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333305.293319
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 19.315507173538208, 
+                    "neutron.delete_router": 8.595798015594482
+                }, 
+                "duration": 27.911369800567627, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333310.27096
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 11.655292987823486, 
+                    "neutron.delete_router": 11.279507875442505
+                }, 
+                "duration": 22.93486785888672, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333315.532349
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 15.540980815887451, 
+                    "neutron.delete_router": 14.209609985351562
+                }, 
+                "duration": 29.75065016746521, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333323.033423
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 23.16579818725586, 
+                    "neutron.delete_router": 4.1788718700408936
+                }, 
+                "duration": 27.34473204612732, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333324.936895
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 29.303121089935303, 
+                    "neutron.delete_router": 7.89448094367981
+                }, 
+                "duration": 37.19766807556152, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333335.172531
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 30.477983951568604, 
+                    "neutron.delete_router": 15.406224966049194
+                }, 
+                "duration": 45.884268045425415, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333338.189441
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 9.67638611793518, 
+                    "neutron.delete_router": 19.260855197906494
+                }, 
+                "duration": 28.93730115890503, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333338.471824
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 18.3139488697052, 
+                    "neutron.delete_router": 13.579875946044922
+                }, 
+                "duration": 31.893874883651733, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333339.218338
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 10.308452844619751, 
+                    "neutron.delete_router": 7.122815132141113
+                }, 
+                "duration": 17.431355953216553, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333352.295217
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 10.250577926635742, 
+                    "neutron.delete_router": 12.039632081985474
+                }, 
+                "duration": 22.290271043777466, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333352.788589
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 18.832000017166138, 
+                    "neutron.delete_router": 12.077162027359009
+                }, 
+                "duration": 30.909220933914185, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333367.412756
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 10.729986190795898, 
+                    "neutron.delete_router": 15.984179973602295
+                }, 
+                "duration": 26.714251041412354, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333369.737328
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 20.231379985809326, 
+                    "neutron.delete_router": 11.769488096237183
+                }, 
+                "duration": 32.00093102455139, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333371.115674
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 13.351387977600098, 
+                    "neutron.delete_router": 10.960469007492065
+                }, 
+                "duration": 24.311918020248413, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333372.375311
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 11.044842958450317, 
+                    "neutron.delete_router": 10.669116020202637
+                }, 
+                "duration": 21.714025020599365, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333375.082263
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 14.83657693862915, 
+                    "neutron.delete_router": 9.829110145568848
+                }, 
+                "duration": 24.66574788093567, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333384.076702
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 28.465492963790894, 
+                    "neutron.delete_router": 9.034334897994995
+                }, 
+                "duration": 37.49988293647766, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333396.454823
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 12.862329006195068, 
+                    "neutron.delete_router": 11.489857912063599
+                }, 
+                "duration": 24.352242946624756, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333396.691433
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 21.544011116027832, 
+                    "neutron.delete_router": 6.853411912918091
+                }, 
+                "duration": 28.39751386642456, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333396.800795
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 13.819941997528076, 
+                    "neutron.delete_router": 10.224426984786987
+                }, 
+                "duration": 24.044429063796997, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333398.325171
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 14.34067702293396, 
+                    "neutron.delete_router": 11.480583906173706
+                }, 
+                "duration": 25.82134199142456, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333403.12307
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 12.993067026138306, 
+                    "neutron.delete_router": 10.30864405632019
+                }, 
+                "duration": 23.30177617073059, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333408.747666
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 13.407999038696289, 
+                    "neutron.delete_router": 14.371052980422974
+                }, 
+                "duration": 27.779109954833984, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333421.058764
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 15.090575933456421, 
+                    "neutron.delete_router": 8.346314191818237
+                }, 
+                "duration": 23.43695592880249, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333422.376431
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 16.75267791748047, 
+                    "neutron.delete_router": 8.467954158782959
+                }, 
+                "duration": 25.22070002555847, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333425.202127
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 19.704540967941284, 
+                    "neutron.delete_router": 13.17344617843628
+                }, 
+                "duration": 32.878039836883545, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333428.948136
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 12.115487813949585, 
+                    "neutron.delete_router": 12.452630043029785
+                }, 
+                "duration": 24.568179845809937, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333432.054331
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 20.953240156173706, 
+                    "neutron.delete_router": 9.235493898391724
+                }, 
+                "duration": 30.18879795074463, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333433.959119
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 10.654902935028076, 
+                    "neutron.delete_router": 15.411875009536743
+                }, 
+                "duration": 26.066858053207397, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333445.818549
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 21.18447995185852, 
+                    "neutron.delete_router": 8.996204137802124
+                }, 
+                "duration": 30.1807599067688, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333448.842291
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 14.879702806472778, 
+                    "neutron.delete_router": 12.618123054504395
+                }, 
+                "duration": 27.49788999557495, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333450.426717
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 13.792707920074463, 
+                    "neutron.delete_router": 12.431388139724731
+                }, 
+                "duration": 26.224161863327026, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333456.625528
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 17.273738145828247, 
+                    "neutron.delete_router": 5.868705987930298
+                }, 
+                "duration": 23.142507076263428, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333461.831971
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 17.216908931732178, 
+                    "neutron.delete_router": 9.435670137405396
+                }, 
+                "duration": 26.65263605117798, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333464.151787
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 15.758130073547363, 
+                    "neutron.delete_router": 7.137037992477417
+                }, 
+                "duration": 22.89525079727173, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333471.892548
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 16.362834215164185, 
+                    "neutron.delete_router": 16.80591106414795
+                }, 
+                "duration": 33.16880702972412, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333477.92894
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 37.34573817253113, 
+                    "neutron.delete_router": 15.579612016677856
+                }, 
+                "duration": 52.92540788650513, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333479.029143
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 18.598342895507812, 
+                    "neutron.delete_router": 6.125016212463379
+                }, 
+                "duration": 24.723418951034546, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333482.852518
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 34.53282284736633, 
+                    "neutron.delete_router": 4.9267261028289795
+                }, 
+                "duration": 39.459617137908936, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333484.977778
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 16.292708158493042, 
+                    "neutron.delete_router": 5.911728143692017
+                }, 
+                "duration": 22.204500913619995, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333490.808619
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 9.386682033538818, 
+                    "neutron.delete_router": 17.2372088432312
+                }, 
+                "duration": 26.62395405769348, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333494.791106
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 14.195002794265747, 
+                    "neutron.delete_router": 12.45258092880249
+                }, 
+                "duration": 26.647660970687866, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333507.579085
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 24.906166076660156, 
+                    "neutron.delete_router": 5.198610067367554
+                }, 
+                "duration": 30.104827880859375, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333511.100717
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 16.903344869613647, 
+                    "neutron.delete_router": 4.731613874435425
+                }, 
+                "duration": 21.63503909111023, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333513.016937
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 15.66252589225769, 
+                    "neutron.delete_router": 13.598663091659546
+                }, 
+                "duration": 29.261263847351074, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333521.417869
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 19.13770079612732, 
+                    "neutron.delete_router": 9.602900981903076
+                }, 
+                "duration": 28.740669012069702, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333524.440936
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 18.25556993484497, 
+                    "neutron.delete_router": 13.198955059051514
+                }, 
+                "duration": 31.45458698272705, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333531.957782
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 20.460007905960083, 
+                    "neutron.delete_router": 10.965409994125366
+                }, 
+                "duration": 31.425480842590332, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333534.235238
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 17.38714098930359, 
+                    "neutron.delete_router": 13.381088972091675
+                }, 
+                "duration": 30.768306016921997, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333534.656251
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 16.590861082077026, 
+                    "neutron.delete_router": 8.798218965530396
+                }, 
+                "duration": 25.3891441822052, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333541.209076
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 14.256689071655273, 
+                    "neutron.delete_router": 16.62839698791504
+                }, 
+                "duration": 30.885146141052246, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333550.682767
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 15.076555967330933, 
+                    "neutron.delete_router": 6.926725149154663
+                }, 
+                "duration": 22.003340005874634, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333553.185943
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 8.802992105484009, 
+                    "neutron.delete_router": 5.158395051956177
+                }, 
+                "duration": 13.96144413948059, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333563.417014
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 29.881546020507812, 
+                    "neutron.delete_router": 18.708176851272583
+                }, 
+                "duration": 48.58979082107544, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333565.427539
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 11.753430128097534, 
+                    "neutron.delete_router": 19.783184051513672
+                }, 
+                "duration": 31.53667187690735, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333565.664086
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 30.77391004562378, 
+                    "neutron.delete_router": 9.611745119094849
+                }, 
+                "duration": 40.38571619987488, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333566.603968
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 14.23986005783081, 
+                    "neutron.delete_router": 10.238517045974731
+                }, 
+                "duration": 24.478437185287476, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333575.193318
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 8.929177045822144, 
+                    "neutron.delete_router": 13.103855848312378
+                }, 
+                "duration": 22.033097982406616, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333577.382428
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 11.779644966125488, 
+                    "neutron.delete_router": 4.377955913543701
+                }, 
+                "duration": 16.15767002105713, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333581.572505
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 16.53036594390869, 
+                    "neutron.delete_router": 16.53885316848755
+                }, 
+                "duration": 33.06928491592407, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333597.205369
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 20.302515029907227, 
+                    "neutron.delete_router": 5.558559894561768
+                }, 
+                "duration": 25.861130952835083, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333597.734311
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 14.489073991775513, 
+                    "neutron.delete_router": 5.3184990882873535
+                }, 
+                "duration": 19.80763602256775, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333599.418797
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 15.302244901657104, 
+                    "neutron.delete_router": 12.564059019088745
+                }, 
+                "duration": 27.86636710166931, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333599.678393
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 22.013954162597656, 
+                    "neutron.delete_router": 5.100926160812378
+                }, 
+                "duration": 27.11494278907776, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333606.993508
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 17.84756898880005, 
+                    "neutron.delete_router": 15.798509120941162
+                }, 
+                "duration": 33.646169900894165, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333614.021145
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 20.725882053375244, 
+                    "neutron.delete_router": 14.032952070236206
+                }, 
+                "duration": 34.75889992713928, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333619.229491
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 24.03766918182373, 
+                    "neutron.delete_router": 12.788388967514038
+                }, 
+                "duration": 36.826136112213135, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333623.598557
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 10.65934705734253, 
+                    "neutron.delete_router": 15.550909042358398
+                }, 
+                "duration": 26.210315942764282, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333627.548296
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 22.131911039352417, 
+                    "neutron.delete_router": 15.347462892532349
+                }, 
+                "duration": 37.47942900657654, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333630.280811
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 8.27252197265625, 
+                    "neutron.delete_router": 3.98860502243042
+                }, 
+                "duration": 12.261187076568604, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333634.111649
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 24.297014951705933, 
+                    "neutron.delete_router": 10.27109694480896
+                }, 
+                "duration": 34.568177938461304, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333646.375899
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 8.755221843719482, 
+                    "neutron.delete_router": 9.17121410369873
+                }, 
+                "duration": 17.926492929458618, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333647.67137
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 24.397960901260376, 
+                    "neutron.delete_router": 18.363396883010864
+                }, 
+                "duration": 42.7614221572876, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333653.765029
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 6.4550909996032715, 
+                    "neutron.delete_router": 15.108327865600586
+                }, 
+                "duration": 21.563513040542603, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333653.993075
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 9.304236888885498, 
+                    "neutron.delete_router": 6.609050989151001
+                }, 
+                "duration": 15.913358926773071, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333660.428426
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 12.103775978088379, 
+                    "neutron.delete_router": 8.196612119674683
+                }, 
+                "duration": 20.300450086593628, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333665.601063
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 45.44776487350464, 
+                    "neutron.delete_router": 14.607131004333496
+                }, 
+                "duration": 60.05494999885559, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333667.76423
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 43.728572845458984, 
+                    "neutron.delete_router": 10.638909816741943
+                }, 
+                "duration": 54.36754488945007, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333675.56008
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 10.9039888381958, 
+                    "neutron.delete_router": 5.553330183029175
+                }, 
+                "duration": 16.45738410949707, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333676.345459
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 11.45046591758728, 
+                    "neutron.delete_router": 5.341932058334351
+                }, 
+                "duration": 16.792466163635254, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333680.950332
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 33.25691819190979, 
+                    "neutron.delete_router": 7.489619016647339
+                }, 
+                "duration": 40.74659991264343, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333685.90558
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 6.259905099868774, 
+                    "neutron.delete_router": 3.4413211345672607
+                }, 
+                "duration": 9.701290130615234, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333692.80666
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 31.112730026245117, 
+                    "neutron.delete_router": 11.032348155975342
+                }, 
+                "duration": 42.14513897895813, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333696.529232
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 9.392745018005371, 
+                    "neutron.delete_router": 3.284406900405884
+                }, 
+                "duration": 12.67722201347351, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333697.750391
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 26.31344699859619, 
+                    "neutron.delete_router": 10.846544027328491
+                }, 
+                "duration": 37.16004395484924, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333702.510947
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 5.797573089599609, 
+                    "neutron.delete_router": 8.531963109970093
+                }, 
+                "duration": 14.329602003097534, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333710.432454
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 15.109819889068604, 
+                    "neutron.delete_router": 6.4218690395355225
+                }, 
+                "duration": 21.53174901008606, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333724.765939
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 22.93306803703308, 
+                    "neutron.delete_router": 7.8266379833221436
+                }, 
+                "duration": 30.75978922843933, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333726.656273
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 13.359281063079834, 
+                    "neutron.delete_router": 13.538218975067139
+                }, 
+                "duration": 26.897571802139282, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333727.822513
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 21.31378698348999, 
+                    "neutron.delete_router": 16.7137930393219
+                }, 
+                "duration": 38.02765989303589, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333729.932099
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 10.257857084274292, 
+                    "neutron.delete_router": 13.570007085800171
+                }, 
+                "duration": 23.827929973602295, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333738.676803
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 14.54262900352478, 
+                    "neutron.delete_router": 8.469594955444336
+                }, 
+                "duration": 23.012279987335205, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333739.677277
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 17.222036123275757, 
+                    "neutron.delete_router": 6.765666961669922
+                }, 
+                "duration": 23.98775601387024, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333746.301851
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 15.254255056381226, 
+                    "neutron.delete_router": 11.62778615951538
+                }, 
+                "duration": 26.882102012634277, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333754.723865
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 28.063136100769043, 
+                    "neutron.delete_router": 9.126554012298584
+                }, 
+                "duration": 37.18977904319763, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333757.420539
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 19.337446928024292, 
+                    "neutron.delete_router": 5.276577949523926
+                }, 
+                "duration": 24.614081144332886, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333762.519059
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 25.311094045639038, 
+                    "neutron.delete_router": 6.087942838668823
+                }, 
+                "duration": 31.399111032485962, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333762.693871
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 13.335036039352417, 
+                    "neutron.delete_router": 8.304044961929321
+                }, 
+                "duration": 21.63914394378662, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333767.963391
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 27.991551876068115, 
+                    "neutron.delete_router": 9.420935153961182
+                }, 
+                "duration": 37.41256904602051, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333770.309191
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 20.4170880317688, 
+                    "neutron.delete_router": 9.531182050704956
+                }, 
+                "duration": 29.948331117630005, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333781.611482
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 15.943048000335693, 
+                    "neutron.delete_router": 7.0646140575408936
+                }, 
+                "duration": 23.00774312019348, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333787.137332
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 13.194179058074951, 
+                    "neutron.delete_router": 10.666431903839111
+                }, 
+                "duration": 23.860682010650635, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333789.60514
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 12.02653694152832, 
+                    "neutron.delete_router": 7.756465911865234
+                }, 
+                "duration": 19.783068895339966, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333794.096671
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 23.552767992019653, 
+                    "neutron.delete_router": 19.854639053344727
+                }, 
+                "duration": 43.407471895217896, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333794.614926
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 17.465919017791748, 
+                    "neutron.delete_router": 19.26335883140564
+                }, 
+                "duration": 36.729349851608276, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333807.726083
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 8.803416967391968, 
+                    "neutron.delete_router": 7.371088981628418
+                }, 
+                "duration": 16.174582958221436, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333810.14867
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 25.021492958068848, 
+                    "neutron.delete_router": 16.360229969024658
+                }, 
+                "duration": 41.381791830062866, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333811.567727
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 14.477531909942627, 
+                    "neutron.delete_router": 5.817044973373413
+                }, 
+                "duration": 20.29463291168213, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333813.472402
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 9.848120212554932, 
+                    "neutron.delete_router": 4.75749397277832
+                }, 
+                "duration": 14.605676174163818, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333813.884353
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 6.158261060714722, 
+                    "neutron.delete_router": 3.5511491298675537
+                }, 
+                "duration": 9.70947790145874, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333826.328079
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 26.677690029144287, 
+                    "neutron.delete_router": 9.306943893432617
+                }, 
+                "duration": 35.98470091819763, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333828.496752
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 13.425672054290771, 
+                    "neutron.delete_router": 3.5373871326446533
+                }, 
+                "duration": 16.963127851486206, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333833.770286
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 9.704216003417969, 
+                    "neutron.delete_router": 16.20194697380066
+                }, 
+                "duration": 25.90622091293335, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333836.041001
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 10.922937154769897, 
+                    "neutron.delete_router": 14.816586971282959
+                }, 
+                "duration": 25.739579916000366, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333838.025283
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 11.421093940734863, 
+                    "neutron.delete_router": 15.2288658618927
+                }, 
+                "duration": 26.650048971176147, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333844.459666
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 16.52473497390747, 
+                    "neutron.delete_router": 11.210921049118042
+                }, 
+                "duration": 27.73572015762329, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333850.738144
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 9.864895820617676, 
+                    "neutron.delete_router": 4.096983909606934
+                }, 
+                "duration": 13.961989879608154, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333852.955553
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 18.135044813156128, 
+                    "neutron.delete_router": 12.670188188552856
+                }, 
+                "duration": 30.805293083190918, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333861.950989
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 20.227190017700195, 
+                    "neutron.delete_router": 12.025513172149658
+                }, 
+                "duration": 32.252769947052, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333863.768404
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 10.326196908950806, 
+                    "neutron.delete_router": 8.332774877548218
+                }, 
+                "duration": 18.65903902053833, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333864.486187
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 19.945471048355103, 
+                    "neutron.delete_router": 7.76070499420166
+                }, 
+                "duration": 27.706242084503174, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333866.922284
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 14.415455102920532, 
+                    "neutron.delete_router": 7.2970850467681885
+                }, 
+                "duration": 21.71259903907776, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333871.112684
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 21.208884954452515, 
+                    "neutron.delete_router": 8.473111152648926
+                }, 
+                "duration": 29.68205189704895, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333878.47685
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 20.00329303741455, 
+                    "neutron.delete_router": 11.08093786239624
+                }, 
+                "duration": 31.08429503440857, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333883.149477
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 22.873451948165894, 
+                    "neutron.delete_router": 12.11773681640625
+                }, 
+                "duration": 34.991262912750244, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333892.763354
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 13.494588851928711, 
+                    "neutron.delete_router": 10.785238027572632
+                }, 
+                "duration": 24.279895067214966, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333892.829272
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 18.10690999031067, 
+                    "neutron.delete_router": 7.1464550495147705
+                }, 
+                "duration": 25.253437995910645, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333894.636228
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 21.182799816131592, 
+                    "neutron.delete_router": 11.241334915161133
+                }, 
+                "duration": 32.42418909072876, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333896.02634
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 15.848114013671875, 
+                    "neutron.delete_router": 6.993555068969727
+                }, 
+                "duration": 22.8417329788208, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333908.162307
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 17.56292414665222, 
+                    "neutron.delete_router": 4.317489147186279
+                }, 
+                "duration": 21.880481004714966, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333914.237162
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 24.77342200279236, 
+                    "neutron.delete_router": 17.838282823562622
+                }, 
+                "duration": 42.61176609992981, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333917.112299
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 16.079720973968506, 
+                    "neutron.delete_router": 8.273788213729858
+                }, 
+                "duration": 24.353566884994507, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333919.895724
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 29.652766942977905, 
+                    "neutron.delete_router": 8.110032081604004
+                }, 
+                "duration": 37.762876987457275, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333927.758079
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 18.355441093444824, 
+                    "neutron.delete_router": 15.567874193191528
+                }, 
+                "duration": 33.9233820438385, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333928.460155
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 30.079882860183716, 
+                    "neutron.delete_router": 10.415749073028564
+                }, 
+                "duration": 40.49569797515869, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333931.008512
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 10.33902096748352, 
+                    "neutron.delete_router": 4.737932920455933
+                }, 
+                "duration": 15.077014923095703, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333936.12209
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 12.320186853408813, 
+                    "neutron.delete_router": 10.938462972640991
+                }, 
+                "duration": 23.258708953857422, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333944.252783
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 14.618288040161133, 
+                    "neutron.delete_router": 8.594596862792969
+                }, 
+                "duration": 23.21293807029724, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333951.203415
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 16.702127933502197, 
+                    "neutron.delete_router": 10.031487941741943
+                }, 
+                "duration": 26.733689069747925, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333959.728711
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 18.045237064361572, 
+                    "neutron.delete_router": 9.597954034805298
+                }, 
+                "duration": 27.643301963806152, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333962.387065
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 16.448984146118164, 
+                    "neutron.delete_router": 16.315347909927368
+                }, 
+                "duration": 32.76439809799194, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333965.527011
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 18.640777111053467, 
+                    "neutron.delete_router": 8.436599016189575
+                }, 
+                "duration": 27.077440977096558, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333967.514994
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 13.388365030288696, 
+                    "neutron.delete_router": 6.737526178359985
+                }, 
+                "duration": 20.125958919525146, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333971.512532
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 27.18176794052124, 
+                    "neutron.delete_router": 22.55675482749939
+                }, 
+                "duration": 49.73859882354736, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333974.420144
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 37.69130086898804, 
+                    "neutron.delete_router": 8.073392152786255
+                }, 
+                "duration": 45.76478099822998, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333986.46755
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 10.711209058761597, 
+                    "neutron.delete_router": 11.859292030334473
+                }, 
+                "duration": 22.570567846298218, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333990.032946
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 17.297537088394165, 
+                    "neutron.delete_router": 5.629009008407593
+                }, 
+                "duration": 22.926610231399536, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333991.642928
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 38.30699110031128, 
+                    "neutron.delete_router": 4.657737970352173
+                }, 
+                "duration": 42.96480107307434, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333994.600354
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 7.236931085586548, 
+                    "neutron.delete_router": 3.205864906311035
+                }, 
+                "duration": 10.442896842956543, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468333998.296096
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 32.921504974365234, 
+                    "neutron.delete_router": 15.270066022872925
+                }, 
+                "duration": 48.19164490699768, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468334008.742861
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 4.96990704536438, 
+                    "neutron.delete_router": 18.295328855514526
+                }, 
+                "duration": 23.265291929244995, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468334012.607407
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 9.414469957351685, 
+                    "neutron.delete_router": 7.138749122619629
+                }, 
+                "duration": 16.55328917503357, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468334014.572882
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 32.03931713104248, 
+                    "neutron.delete_router": 5.380149841308594
+                }, 
+                "duration": 37.4195339679718, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468334024.162394
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 13.800080060958862, 
+                    "neutron.delete_router": 4.147260904312134
+                }, 
+                "duration": 17.94740605354309, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468334031.131028
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 26.27805805206299, 
+                    "neutron.delete_router": 7.9680562019348145
+                }, 
+                "duration": 34.24617004394531, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468334032.235808
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 13.049262046813965, 
+                    "neutron.delete_router": 5.553202867507935
+                }, 
+                "duration": 18.602554082870483, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468334035.876586
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 12.227946043014526, 
+                    "neutron.delete_router": 5.098649978637695
+                }, 
+                "duration": 17.32665991783142, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468334037.568864
+            }, 
+            {
+                "atomic_actions": {
+                    "neutron.create_router": 23.62870216369629, 
+                    "neutron.delete_router": 4.699471950531006
+                }, 
+                "duration": 28.3282310962677, 
+                "error": [], 
+                "idle_duration": 0.0, 
+                "output": {
+                    "additive": [], 
+                    "complete": []
+                }, 
+                "timestamp": 1468334049.08122
+            }
+        ], 
+        "sla": []
+    }
+]
